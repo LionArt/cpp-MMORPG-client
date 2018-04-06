@@ -1,4 +1,4 @@
-# cpp-MMORPG-client
+# MMORPG Client
 MMORPG client written in C++ using SFML library
 
 The only important configurable thing in client would be server IP. 
