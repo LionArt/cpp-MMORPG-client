@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Klient" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Klient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Klient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="Headers" />
+			<Add directory="F:/Biblioteki i frameworki/SFML GCC 4.9.2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics-s" />
+			<Add library="freetype" />
+			<Add library="jpeg" />
+			<Add library="sfml-window-s" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="sfml-audio-s" />
+			<Add library="openal32" />
+			<Add library="flac" />
+			<Add library="vorbisenc" />
+			<Add library="vorbisfile" />
+			<Add library="vorbis" />
+			<Add library="ogg" />
+			<Add library="sfml-network-s" />
+			<Add library="ws2_32" />
+			<Add library="sfml-system-s" />
+			<Add library="winmm" />
+			<Add directory="Source" />
+			<Add directory="F:/Biblioteki i frameworki/SFML GCC 4.9.2/lib" />
+		</Linker>
+		<Unit filename="Headers/Application.hpp" />
+		<Unit filename="Headers/ClientMath.hpp" />
+		<Unit filename="Headers/DefaultSettings.hpp" />
+		<Unit filename="Headers/DrawableObject.hpp" />
+		<Unit filename="Headers/EventHandler.hpp" />
+		<Unit filename="Headers/GUIManager.hpp" />
+		<Unit filename="Headers/GUI/Button.hpp" />
+		<Unit filename="Headers/GUI/CheckBox.hpp" />
+		<Unit filename="Headers/GUI/Interface.hpp" />
+		<Unit filename="Headers/GUI/Slider.hpp" />
+		<Unit filename="Headers/GUI/Spinner.hpp" />
+		<Unit filename="Headers/GUI/Text.hpp" />
+		<Unit filename="Headers/GUI/TextBox.hpp" />
+		<Unit filename="Headers/NetworkHandler.hpp" />
+		<Unit filename="Headers/PacketData.hpp" />
+		<Unit filename="Headers/Player.hpp" />
+		<Unit filename="Headers/RenderManager.hpp" />
+		<Unit filename="Headers/ResourceContainers.hpp" />
+		<Unit filename="Headers/ResourceFiles.hpp" />
+		<Unit filename="Headers/ResourceHandler.hpp" />
+		<Unit filename="Headers/StateHandler.hpp" />
+		<Unit filename="Headers/Version.hpp" />
+		<Unit filename="Source/Application.cpp" />
+		<Unit filename="Source/ClientMath.cpp" />
+		<Unit filename="Source/DefaultSettings.cpp" />
+		<Unit filename="Source/EventHandler.cpp" />
+		<Unit filename="Source/GUIManager.cpp" />
+		<Unit filename="Source/GUI/Button.cpp" />
+		<Unit filename="Source/GUI/CheckBox.cpp" />
+		<Unit filename="Source/GUI/Interface.cpp" />
+		<Unit filename="Source/GUI/Slider.cpp" />
+		<Unit filename="Source/GUI/Spinner.cpp" />
+		<Unit filename="Source/GUI/Text.cpp" />
+		<Unit filename="Source/GUI/TextBox.cpp" />
+		<Unit filename="Source/NetworkHandler.cpp" />
+		<Unit filename="Source/PacketData.cpp" />
+		<Unit filename="Source/Player.cpp" />
+		<Unit filename="Source/RenderManager.cpp" />
+		<Unit filename="Source/ResourceContainers.cpp" />
+		<Unit filename="Source/ResourceHandler.cpp" />
+		<Unit filename="Source/StateHandler.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<AutoVersioning>
+				<Scheme minor_max="100" build_max="100" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="1" update_manifest="1" do_auto_increment="1" ask_to_increment="1" language="C++" svn="1" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="1" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
