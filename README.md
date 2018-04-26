@@ -1,7 +1,7 @@
 # MMORPG Client
 MMORPG client written in C++ using SFML library
 
-<a href="https://imgur.com/a/e6sNPOk"><img src="https://imgur.com/a/e6sNPOk" title="Treasuria"/></a>
+<a href="https://imgur.com/T4phSiO"><img src="https://imgur.com/T4phSiO" title="Treasuria"/></a>
 
 The only important configurable thing in client would be server IP. 
 To change server IP, go to Headers/DefaultSettings.hpp and change line 
